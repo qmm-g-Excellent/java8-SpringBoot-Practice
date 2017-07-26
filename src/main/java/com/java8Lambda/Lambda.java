@@ -3,7 +3,7 @@ package com.java8Lambda;
 /**
  * Created by qmm on 17-7-25.
  */
-public class NewFeaturesTester {
+public class Lambda {
 
     //注意：在一个类中是可以定义接口的
     interface GreetingService {
@@ -21,7 +21,7 @@ public class NewFeaturesTester {
 
     public static void main(String[] args) {
 
-        NewFeaturesTester tester = new NewFeaturesTester();//实例化本类的实例
+        Lambda tester = new Lambda();//实例化本类的实例
 
 
         //实际上，我的理解是，以下四种方法可以看作：均是对接口 MathOperation　接口中的　operation()方法的实现！！！
