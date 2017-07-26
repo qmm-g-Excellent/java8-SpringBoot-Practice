@@ -1,4 +1,4 @@
-package com.java8Lambda;
+package com.java8;
 
 /**
  * Created by qmm on 17-7-25.
