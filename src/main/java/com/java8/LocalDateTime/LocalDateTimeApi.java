@@ -1,11 +1,10 @@
-package com.java8;
+package com.java8.LocalDateTime;
 
 /**
  * Created by qmm on 17-7-27.
  */
 
 import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Month;
 
@@ -18,7 +17,7 @@ public class LocalDateTimeApi {
     public void testLocalDateTime() {
 
         //获取当前的日期和时间
-        LocalDateTime currentTime = LocalDateTime.now();
+        java.time.LocalDateTime currentTime = java.time.LocalDateTime.now();
         System.out.println("Current Date and Time：　" + currentTime);
 
         // 输出当前时间的本地值（本时区）
@@ -33,7 +32,7 @@ public class LocalDateTimeApi {
         System.out.println("month: " + month + "　day: " + day + "　seconds: " + seconds);
 
         // 由当前时间附带月份和年再输出
-        LocalDateTime date2 = currentTime.withDayOfMonth(10).withYear(2012);
+        java.time.LocalDateTime date2 = currentTime.withDayOfMonth(10).withYear(2012);
         System.out.println("date 2: " + date2);
 
         // 输出2016年圣诞节的日期
