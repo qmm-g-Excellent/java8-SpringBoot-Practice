@@ -26,7 +26,7 @@ public class OptionalExample {
     public static void main(String args[]){
 
         OptionalExample tester = new OptionalExample();
-        
+
         Integer value1 = null;
         Integer value2 = new Integer(5);
 
