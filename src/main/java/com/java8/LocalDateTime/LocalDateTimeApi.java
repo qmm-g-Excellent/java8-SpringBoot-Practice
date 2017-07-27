@@ -5,6 +5,7 @@ package com.java8.LocalDateTime;
  */
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Month;
 
@@ -17,7 +18,7 @@ public class LocalDateTimeApi {
     public void testLocalDateTime() {
 
         //获取当前的日期和时间
-        java.time.LocalDateTime currentTime = java.time.LocalDateTime.now();
+        LocalDateTime currentTime = LocalDateTime.now();
         System.out.println("Current Date and Time：　" + currentTime);
 
         // 输出当前时间的本地值（本时区）
@@ -40,7 +41,7 @@ public class LocalDateTimeApi {
         System.out.println("date 3: " + date3);
 
         // 输出新闻联播的开始时间
-        LocalTime date4 = LocalTime.of(19,00);
+        LocalTime date4 = LocalTime.of(19, 00);
         System.out.println("date 4: " + date4);
 
         // 转化为字符串，再输出
